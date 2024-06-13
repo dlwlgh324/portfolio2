@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* logo */
+<<<<<<< HEAD
+.product_detail_wrap .bi_wrap .bi_orga{background-position:-290px -72px}
+=======
+.product_detail_wrap .bi_wrap .bi_orga{background-position:-308px -75px; display: block;}
+>>>>>>> shop_goods
+
+/* 올가 아이콘 세로라인 삭제 : 3.29 풀무원샵 세로라인 통일 */
+.product_detail_wrap .no_line .product_list:before, .product_detail_wrap .no_line .product_list:after{}
+
+/* 올가 타이틀 블릿 */
+.orga_warp .product_info_title:before{background-color:#271000 !important}
+.renewal2022.orga_warp .product_info_title:before{background-color:#5B4A39 !important}
+
+/* 올가 pb인증 정보 */
+.product_detail_wrap .pb_info_wrap{margin:90px 0 90px}
+.product_detail_wrap .pb_info_wrap img{max-width:100%}
+.product_detail_wrap .orgamom_info_wrap{margin:90px 0 90px}
+.product_detail_wrap .orgamom_info_wrap img{max-width:100%}
+.product_detail_wrap .fullvita_info_wrap{margin:90px 0 90px}
+.product_detail_wrap .fullvita_info_wrap img{max-width:100%}
+.product_detail_wrap .wholeseed_info_wrap{margin:90px 0 90px}
+.product_detail_wrap .wholeseed_info_wrap img{max-width:100%}
+
+/* 리뉴얼 올가 pb인증 정보 */
+.renewal2022 .pb_info_wrap{margin:50px 0 50px !important;}
+.renewal2022 .orgamom_info_wrap{margin:50px 0 50px !important}
+.renewal2022 .fullvita_info_wrap{margin:50px 0 50px !important}
+.renewal2022 .wholeseed_info_wrap{margin:50px 0 50px !important}
+
+/* 올가 마이스터 비디오 타이틀 */
+.orga_meister_video{margin:100px 0 -40px;padding:20px 12px;background-color:#6a8a22;text-align:left;}
+.orga_meister_video .txt{display:inline-block;color:#fff;font-size:26px;font-weight:500;}
+.orga_meister_video .txt:after{content:'>';display:inline-block;width:32px;height:32px;margin-left:6px;border-radius:100%;-webkit-border-radius:100%;color:#6a8a22;background-color:#fff;line-height:32px;text-align:center;vertical-align:0}
+
+/* 올가 로하스 정보 */
+.orga_lohas_fresh_meat{margin:60px 0 80px;color:#6a8a22;font-size:40px;font-weight:500;text-align:center}
+@media all and (max-width:720px){
+    .orga_lohas_fresh_meat{margin:30px 0 40px;font-size:16px}
+}
+
+/* 보관방법 아이콘 */
+.product_detail_wrap .icon_freeze{display:inline-block;vertical-align:top;width:34px;height:36px;background:url(https://s.pulmuone.app/newProduct21/common/img/sp_icon.png) 0 -80px no-repeat}
+.product_detail_wrap .icon_wind{display:inline-block;vertical-align:top;width:34px;height:36px;background:url(https://s.pulmuone.app/newProduct21/common/img/sp_icon.png) -90px -78px no-repeat}
+.product_detail_wrap .icon_wind2{display:inline-block;vertical-align:top;width:34px;height:36px;background:url(https://s.pulmuone.app/newProduct21/common/img/sp_icon.png) -150px -75px no-repeat}
+.product_detail_wrap .icon_temperature{display:inline-block;vertical-align:top;width:34px;height:36px;background: url(https://s.pulmuone.app/newProduct21/common/img/sp_icon.png) -40px -76px no-repeat;}
+
+/* 레시피 아이콘 [5912][5911][7578][7579] */
+.product_info_text .icon_cook{display:inline-block;width:44px;height:34px;margin-right:4px;vertical-align:bottom}
+.product_info_text .icon_cook.ic1{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_01.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.ic2{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_02.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.ic3{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_03.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.ic4{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_04.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.ic5{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_05.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.ic6{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cooking_06.png) no-repeat left top;background-size:100%;}
+
+/* 조리방법 아이콘 */
+.product_info_text .icon_cook.cook_airfryer{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cook_airfryer.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.cook_fryfan{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cook_fryfan.png) no-repeat left top;background-size:100%;}
+.product_info_text .icon_cook.cook_oven{background:url(https://s.pulmuone.app/newProduct21/common/img/orga_recipe/icon_cook_oven.png) no-repeat left top;background-size:100%;}
+
+/* Mobile */
+@media all and (max-width:720px){
+  /* logo */
+  .product_detail_wrap .bi_wrap .bi_orga{background-position:-40vw -10vw;display: block;}
+
+   /* 올가 pb인증 정보 */
+  .product_detail_wrap .pb_info_wrap {margin:30px 0 0;} 
+   .product_detail_wrap .orgamom_info_wrap {margin:30px 0 0}
+   .product_detail_wrap .fullvita_info_wrap {margin:30px 0 0}
+   .product_detail_wrap .wholeseed_info_wrap {margin:30px 0 0}
+
+   /* 리뉴얼 올가 pb인증 정보 */
+  .renewal2022 .pb_info_wrap{margin:0 0 8vw !important;}
+  .renewal2022 .orgamom_info_wrap{margin:0 0 8vw  !important}
+  .renewal2022 .fullvita_info_wrap{margin:0 0 8vw  !important}
+  .renewal2022 .wholeseed_info_wrap{margin:0 0 8vw  !important}
+
+   /* 올가 마이스터 비디오 타이틀 */
+  .product_detail_wrap .orga_meister_video{margin:50px 0 15px;padding:10px 10px;background-color:#6a8a22;text-align:left;}
+  .product_detail_wrap .orga_meister_video .txt{display:inline-block;color:#fff;font-size:12px;font-weight:500;line-height:1.5}
+  .product_detail_wrap .orga_meister_video .txt:after{content:'>';display:inline-block;width:16px;height:16px;margin-left:3px;border-radius:100%;-webkit-border-radius:100%;color:#6a8a22;background-color:#fff;line-height:16px;text-align:center;vertical-align:0;}
+
+  /* 보관방법 아이콘 */  
+  .product_detail_wrap .icon_freeze{width:5.6vw;height:5.5vw;background-size:55vw;background-position:0 -10.5vw}
+  .product_detail_wrap .icon_wind{width:6vw;height:5.5vw;background-size:55vw;background-position:-12vw -10vw}
+  .product_detail_wrap .icon_wind2{width:6vw;height:5.5vw;background-size:55vw;background-position:-20vw ​-10vw}
+  .product_detail_wrap .icon_temperature{width:5.6vw;height:6vw;background-size:64vw;background-position:-6vw ​-12v}
+
+  /* 레시피 아이콘 [5912][5911][7578][7579] */
+  .product_info_text .icon_cook{display:inline-block;width:5vw;height:17px;margin-right:2px;vertical-align:bottom}
+}

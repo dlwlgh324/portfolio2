@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* 리뉴얼 PC */
+.renewal2022 * { word-break: normal !important; } 
+.renewal2022 .detail_subtitle { margin-top: 40px !important; font-size: 26px !important; } 
+.renewal2022 .detail_title { font-size: 42px !important; margin-top: 5px !important; margin-bottom: 0; letter-spacing: 0 !important; } 
+.renewal2022 .detail_text { margin-top: 0px !important; font-size: 22px !important; margin-top: 26px !important; text-align: left; } 
+.renewal2022 .pmo:before { bottom: -90px !important; } 
+.renewal2022 .product_info_wrap { margin: 30px 0 !important; padding: 0 !important; } 
+.renewal2022 .product_list::before { display: none; } 
+.renewal2022 .product_list { display: flex; } 
+.renewal2022 .product_list li { min-height: 0 !important; padding: 30px 0px 32px !important; padding-right: 10px !important; white-space: nowrap !important; } 
+.renewal2022 .product_list li:first-child:nth-last-child(1) { width: 100% !important; text-align: center; } 
+.renewal2022 .product_icon { display: inline-block !important; width: 48px !important; height: 48px !important; padding-right: 10px; vertical-align: middle; } 
+.renewal2022 .product_title { display: inline-block !important; font-size: 22px !important; font-weight: 300 !important; text-align: left; vertical-align: middle; } 
+.renewal2022 .product_list li:nth-child(n+3):before { display: none !important; } 
+.renewal2022 .product_info_subtitle { margin: 38px 0 0 0 !important; padding-left: 0 !important; } 
+.renewal2022 .product_info_subtitle::before { display: none !important; } 
+.renewal2022 .product_info_title { border-top: 0 !important; padding-top: 0 !important; padding-left: 20px !important; margin-top: 105px !important; } 
+.renewal2022 .product_info_image { position: relative; } 
+.renewal2022 .img_b2b:after { content:""; position:absolute; display:block; top: 0; left: 0; background:rgba(0,0,0,.04); width:100%; height:100%; z-index: 2; } 
+.renewal2022 .image_notice { position: absolute; bottom: 24px; right: 38px; font-size: 18px; } 
+.renewal2022 .product_info_title:before { display: inline-block; width: 12px; height: 12px; margin: -8px 8px 0 -20px; background-color: #7BCC12 !important; vertical-align: middle; border-radius: 50%; -webkit-border-radius: 50%; content: ''}
+.renewal2022 .product_info_text { margin-left: 0 !important; padding-right: 0 !important; margin-top: 18px !important; } 
+.renewal2022 .product_info_text strong { font-size: 22px !important; } 
+.renewal2022 .product_notice_text { margin-top: 25px !important; text-indent: 0px !important; padding: 0px !important; } 
+.renewal2022 .product_info_table { margin-left: 0 !important; } 
+
+/* Mobile */
+@media all and (max-width:720px){
+.renewal2022 * { word-break: normal !important; } 
+.renewal2022 .pmo:after { bottom: -12% !important; } 
+.renewal2022 .image_notice { position: absolute; bottom: 2%; right: 2%; font-size: 2.7778vw; } 
+.renewal2022 .detail_title { margin-top: 0.5556vw !important; margin-bottom: 10vw; font-size: 6.6667vw !important; } 
+.renewal2022 .detail_subtitle { margin-top: 5.5556vw !important; margin-bottom: 0; font-size: 5vw !important; } 
+.renewal2022 .detail_text { padding: 0 !important; margin-top: 3.3333vw !important; font-size: 4.4444vw !important; } 
+.renewal2022 .product_info_wrap { margin: 5vw 0 11.1111vw 0 !important; padding: 0 0 0 3vw !important; } 
+.renewal2022 .product_list::before { display: none; } 
+.renewal2022 .product_list { position: relative; display: flex; flex-wrap: wrap; } 
+.renewal2022 .product_list li { white-space: nowrap; padding: 1.1111vw 0 !important; text-align: left; min-height: 0 !important; width: 50% !important; } 
+.renewal2022 .product_list li:first-child:nth-last-child(1) { width: 100% !important; text-align: center; } 
+.renewal2022 .product_list li:first-child:nth-last-child(2),
+.renewal2022 .product_list li:first-child:nth-last-child(2)~li { width: 50% !important; text-align: center; } 
+.renewal2022 .product_list li:first-child:nth-last-child(3),
+.renewal2022 .product_list li:first-child:nth-last-child(3)~li { width: 50% !important; } 
+.renewal2022 .product_icon { display: inline-block !important; width: 10vw !important; height: 10vw !important; vertical-align: middle; } 
+.renewal2022 .product_title { display: inline-block; font-weight: 300 !important; vertical-align: middle; white-space: normal; font-size: 4.2222vw !important; margin-left: -1vw; } 
+.renewal2022 .product_list li:nth-child(n+3):before { display: none; } 
+.renewal2022 .product_info_subtitle { margin: 7vw 0 0 0 !important; padding-left: 0 !important; font-size: 5.8333vw !important; } 
+.renewal2022 .product_info_subtitle::before { display: none !important; } 
+.renewal2022 .product_info_text { margin-left: 0 !important; margin-top: 3vw !important; line-height: 1.5 !important; font-size: 4.444vw !important; } 
+.renewal2022 .product_info_text strong { font-size: 4.444vw !important; } 
+.renewal2022 .product_info_title { border-top: 0 !important; padding: 0 !important; margin-top: 18.7500vw !important; margin-left: 3vw !important; font-size: 6.8333vw !important; } 
+.renewal2022 .product_info_title::before { width: 3vw !important; height: 3vw !important; margin: -1.1111vw 2.2vw 0 -2.7777vw !important; } 
+.renewal2022 .product_notice_text { margin: 16.6667vw 0 0 0 !important; text-indent: 0px !important; } 
+}

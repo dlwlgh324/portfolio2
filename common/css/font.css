@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Pulmuone;
+  font-style: normal;
+  font-display: swap;
+  src: local("Pulmuone"), url(https://s.pulmuone.app/newProduct21/common/css/font/Pulmuone.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Pulmuone.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("PulmuoneLOHASLight"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("PulmuoneLOHASLight"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("PulmuoneLOHASMedium"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASMedium.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASMedium.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("PulmuoneLOHASBold"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASBold.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASBold.woff) format("woff")
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Lato-Regular"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lato-Regular"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Lato-Bold"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Bold.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("NotoSansKR-DemiLight"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff2) format("woff2"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff) format("woff");
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("NotoSansKR-DemiLight"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff2) format("woff2"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff) format("woff");
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("NotoSansKR-Bold"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Bold.woff2) format("woff2"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("NotoSansKR-Medium"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Medium.woff2) format("woff2"),url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Medium.woff) format("woff");
+}
+.product_detail_wrap *{font-family:'Lato', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;-webkit-text-size-adjust:100%}
+.wrap *{font-family:'Lato', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;-webkit-text-size-adjust:100%}
+/* 통합몰 리셋 */
+img{max-width:100%;}
+html,body{margin:0;padding:0;border:0}

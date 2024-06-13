@@ -1,0 +1,563 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("PulmuoneLOHASLight"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("PulmuoneLOHASLight"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASLight.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("PulmuoneLOHASMedium"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASMedium.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASMedium.woff) format("woff")
+}
+
+@font-face {
+  font-family: PulmuoneLOHAS;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("PulmuoneLOHASBold"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASBold.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/PulmuoneLOHASBold.woff) format("woff")
+}
+
+@font-face {
+  font-family:'NotoSans';
+  font-style:normal;
+  font-weight:300;
+  font-display: swap;
+  src:local('NotoSansKR-DemiLight'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff2) format('woff2'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff) format('woff');
+}
+@font-face {
+  font-family:'NotoSans';
+  font-style:normal;
+  font-weight:400;
+  font-display: swap;
+  src:local('NotoSansKR-DemiLight'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff2) format('woff2'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-DemiLight.woff) format('woff');
+}
+@font-face {
+  font-family:'NotoSans';
+  font-style:normal;
+  font-weight:700;
+  font-display: swap;
+  src:local('NotoSansKR-Bold'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Bold.woff2) format('woff2'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family:'NotoSans';
+  font-style:normal;
+  font-weight:500;
+  font-display: swap;
+  src:local('NotoSansKR-Medium'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Medium.woff2) format('woff2'),
+  url(https://s.pulmuone.app/newProduct21/common/css/font/NotoSansKR-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Lato-Regular"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lato-Regular"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Lato-Bold"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Bold.woff2) format("woff2"), url(https://s.pulmuone.app/newProduct21/common/css/font/Lato-Bold.woff) format("woff")
+}
+
+.screen-container *,
+.screen-container *:after,
+.screen-container *::before {
+box-sizing: border-box;
+}
+
+
+.fb .goods-detail__wrapper {
+  padding: 30px 0;
+}
+
+.fb .goods-detail__inner {
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.fb .buy-info__wrapper {
+width: 100%;
+  /* border-bottom: 1px solid #ebebeb; */
+}
+
+.fb .buy-info__wrapper:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.fb .buy-info__wrapper:last-of-type {
+  border-bottom: none;
+}
+
+.fb .buy-info__inner {
+width: 950px !important;
+display: flex;
+margin: 0 auto;
+flex-direction: column;
+}
+
+.fb .buy-info+.buy-info {
+  margin-top: 60px;
+  padding-top: 60px;
+  border-top: 1px solid #ebebeb;
+}
+
+.fb .buy-info__title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -.4px;
+}
+
+.fb .buy-info__subtitle {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.47;
+  letter-spacing: -.4px;
+}
+
+.fb .buy-info__contents+.buy-info__subtitle {
+  margin-top: 40px;
+}
+
+.fb .buy-info__contents > p img {
+  width: 100%;
+}
+
+.fb .buy-info__contents img {
+  max-width: 100% !important;
+}
+
+.fb .buy-info__contents table {
+  width: 100%;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.fb .buy-info__contents table col:first-of-type {
+width: 33%;
+}
+
+.fb .buy-info__contents table col:nth-of-type(2) {
+width: 67%;
+}
+
+.fb .buy-info__contents table tr {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.fb .buy-info__contents table tr:last-of-type {
+  border-bottom: none;
+}
+
+.fb .buy-info__contents__title {
+  padding: 17px 40px 17px 32px;
+  background: #fafafa;
+  color: #858585;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+}
+
+.fb .buy-info__contents__content {
+  padding: 17px 33px;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+}
+
+.fb .buy-info__contents__desc {
+  position: relative;
+  margin-top: 4px;
+  padding-left: 16px;
+  color: #858585;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+}
+
+.fb .buy-info__contents__desc:first-of-type {
+  margin-top: 13px;
+}
+
+
+.fb .buy-info__contents__desc:before {
+content: "※";
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+font-size: 14px;
+}
+
+
+/* mobile 기준 CSS : 720px 기준 고정 픽셀 */
+.fb.mobile .buy-info__title {
+  margin: 0 0 32px 0 !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+}
+
+.fb.mobile .buy-info__subtitle {
+  font-size: 28px;
+  line-height: 40px !important;
+  margin: 32px 0;
+}
+
+.fb.mobile .buy-info__contents__title {
+  padding: 24px 32px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+  word-break: keep-all;
+}
+
+.fb.mobile .buy-info__contents__content {
+  padding: 24px 32px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  word-break: keep-all;
+}
+
+.fb.mobile .buy-info__contents__desc {
+  margin-top: 16px;
+  padding-left: 24px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.fb.mobile .buy-info__contents__desc:first-of-type {
+  margin-top: 8px;
+}
+
+.fb.mobile .buy-info__contents__desc:before {
+  font-size: 24px;
+}
+
+.fb.mobile .buy-info__contents table col:first-of-type {
+  /* width: 314px; */
+  }
+
+.fb.mobile .buy-info__contents table col:nth-of-type(2) {
+  /* width: 342px; */
+}
+
+/* 스크롤바 커스터마이징 */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+
+/* 풀무원 프론트 상품 상세 CSS */
+#screen .product_detail_wrap {
+  max-width: 950px;
+  width: 100%;
+  padding: 0 0 50px;
+}
+#screen .product_detail_wrap .product_info_image img {
+  max-width: none;
+}
+#screen .product_detail_wrap .bi {
+  height: 80px;
+}
+#screen .product_detail_wrap .detail_subtitle {
+  margin-top: 132px;
+  font-size: 46px;
+}
+#screen .product_detail_wrap .pmo:before {
+  display: block !important;
+  width: 200px;
+  height: 162px;
+}
+#screen .product_detail_wrap .pmo:after {
+  bottom: -55px;
+  width: 164px;
+  height: 322px;
+  background: url(https://s.pulmuone.app/newProduct21/common/pmo_pattern2.png) 0 0 no-repeat;
+}
+#screen .product_detail_wrap .product_info_wrap {
+  margin-top: 60px;
+  padding: 0 60px;
+}
+#screen .product_detail_wrap .product_list li {
+  min-height: 300px;
+  padding: 0 10px 36px;
+}
+#screen .product_detail_wrap .detail_title {
+  margin-top: 42px;
+  font-size: 64px;
+}
+
+#screen .product_detail_wrap .detail_point_title{
+  font-size:46px;
+}
+#screen .product_detail_wrap .product_icon {
+  height: 150px;
+  max-height: 150px;
+max-width: 150px;
+}
+#screen .product_detail_wrap .product_info_subtitle {
+  margin: 40px 2.7777777% 0;
+  padding-left: 30px;
+  font-size: 50px;
+}
+#screen .product_detail_wrap .product_info_subtitle:before {
+  width: 10px;
+  height: 10px;
+  margin-top: -14px;
+}
+#screen .product_detail_wrap .product_info_title {
+  display: block;
+  margin: 50px 0 0 0;
+  padding-left: 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+#screen .product_detail_wrap .product_info_title:before {
+  display: inline-block;
+  position: static;
+  top: auto;
+  left: auto;
+  width: 18px;
+  height: 18px;
+  margin: -10px 12px 0 23px;
+}
+#screen .product_detail_wrap .product_info_image + .product_info_subtitle,
+#screen .product_detail_wrap .product_info_title + .product_info_subtitle {
+  margin: 40px 2.7777777% 0;
+}
+#screen .product_detail_wrap .product_info_text.bullet {
+  margin-left: 60px;
+  padding-left: 0;
+}
+#screen .product_detail_wrap .product_info_text.bullet_num {
+  padding-left: 36px;
+}
+#screen .product_detail_wrap .product_info_text.bullet_num .num{
+  position: static;
+  top: auto;
+}
+#screen .product_detail_wrap .detail_text {
+  margin-top: 56px;
+  padding: 0;
+  font-size: 36px;
+  line-height: 1.4;
+}
+#screen .product_detail_wrap .product_title {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 1.4;
+}
+#screen .product_detail_wrap .product_text {
+  margin-top: 6px;
+  font-size: 30px;
+  line-height: 1.4;
+}
+#screen .product_detail_wrap .product_info_text {
+  margin: 15px 0 0 0;
+  padding: 0 6%;
+  font-size: 36px;
+  line-height: 1.4;
+}
+#screen .product_detail_wrap .product_notice_text {
+  font-size: 36px;
+  text-indent: initial;
+}
+#screen .product_detail_wrap br {
+  display: none;
+}
+#screen .product_detail_wrap .brnone{
+  display: block;
+}
+#screen .product_detail_wrap .brand_info_wrap {
+  margin: 80px 0;
+  padding: 0 20px;
+}
+#screen .product_detail_wrap .brand_info_wrap dt {
+  float: left;
+  display: block;
+  width: 126px;
+  height: 126px;
+  margin-right: 20px;
+}
+#screen .product_detail_wrap .brand_info_wrap dd {
+  display: block;
+  color: #202020;
+  font-size: 26px;
+  line-height: 1.4;
+  text-align: left;
+}
+#screen .product_detail_wrap .product_info_table {
+  margin: 24px 0 0 30px;
+}
+#screen .product_detail_wrap .product_info_table col{
+  width: auto;
+}
+#screen .product_detail_wrap .product_info_table table {
+  font-size: 20px;
+}
+#screen .product_detail_wrap .product_info_table th {
+  height: 48px;
+  padding: 0 5px;
+  font-size: 36px;
+  font-weight: 600;
+}
+#screen .product_detail_wrap .product_info_table td {
+  height: 48px;
+  padding: 10px 10px;
+  font-size: 36px;
+}
+#screen .product_detail_wrap .next_content {
+  margin-top: 20px !important;
+  font-size: 40px;
+}
+#screen .product_detail_wrap .product_info_text.bullet .dot {
+  position: static;
+  top: auto;
+  left: auto;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: -12px 10px 0 0;
+}
+#screen .product_detail_wrap .product_info_text.bullet .dash {
+  position: static;
+  top: auto;
+  left: auto;
+  display: inline-block;
+  width: 14px;
+  height: 4px;
+  margin: -10px 10px 0 0;
+}
+#screen .product_detail_wrap .small_text2{
+  font-size: 26px;
+}
+#screen .product_detail_wrap .product_info_image img{
+  width:100%;
+}
+#screen .product_detail_wrap .icon_recipe{
+  vertical-align: middle;
+}
+#screen .product_detail_wrap .microwave{
+  margin-top: -18px;
+}
+#screen .product_detail_wrap .thin_text{
+  display: block;
+  font-size: 40px;
+  font-weight: 300;
+}
+#screen .product_detail_wrap .image_type .gif{
+  display:none
+}
+#screen .product_detail_wrap .image_type img{
+  display:block
+}
+
+
+/* 리뉴얼 상세페이지 */
+#screen .product_detail_wrap.renewal2022 .detail_subtitle{
+  font-size: 36px !important;
+}
+/* 쿠팡 푸드머스 B2B 임시사용 */
+#screen .product_detail_wrap.renewal2022 .detail_title.next_section { 
+  margin-top: 80px !important; 
+}
+#screen .product_detail_wrap.renewal2022 .detail_title{
+  font-size: 52px !important;
+  margin-top: 15px !important;
+}
+#screen .product_detail_wrap.renewal2022 .detail_text{
+  font-size: 32px !important;
+  margin-top: 45px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_title{
+  font-size: 28px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_info_subtitle{
+  font-size: 38px !important;
+  padding-left: 0 !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_icon{
+  display: inline-block !important;
+  width: 60px !important;
+  height: 60px !important;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+#screen .product_detail_wrap.renewal2022  .image_notice{
+  font-size: 20px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_info_title{
+  padding-left: 0 !important;
+  font-size: 42px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_info_text{
+  padding: 0 !important;
+  font-size: 32px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_info_text strong{
+  font-size: 32px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_info_title:before{
+  margin: -10px 12px 0 0px !important;
+}
+#screen .product_detail_wrap.renewal2022 .next_content{
+  margin-top: 50px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_notice_text{
+  margin-top: 32px !important;
+}
+#screen .product_detail_wrap.renewal2022 .product_list li:first-child:nth-last-child(2) .product_title,
+#screen .product_detail_wrap.renewal2022 .product_list li:first-child:nth-last-child(2)~li .product_title {
+  font-size: 32px !important;
+}
