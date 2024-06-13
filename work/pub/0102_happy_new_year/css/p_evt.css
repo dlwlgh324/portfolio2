@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* reset */
+.desktop .fb__event .event__roulette__visual img{max-width:none;margin:0 -376px auto}
+.desktop .fb__event .event__detail__wrapper .detail .event_wrap img{max-width:none}
+
+/* wide common */
+.event_wrap{overflow:hidden}
+.event_wrap .evt_wide_wrap{position:relative;max-width:1920px;margin:0 auto;text-align:left}
+.event_wrap .evt_section,.event_wrap .evt_notice{position:relative;width:1168px;margin:0 auto}
+.event_wrap .evt_section img{max-width:none;margin:0 -376px auto;vertical-align:top}
+
+.event_wrap .p_evt_sec3{background:#f4f4f4}
+.event_wrap .p_evt_tit{margin-bottom:-120px}
+
+/* nav */
+.event_wrap .evt_nav_wrap{position:absolute;top:0;left:0;width:100%;height:120px;display:flex}
+.event_wrap .evt_nav_wrap li{position:relative;width:100%;height:100%;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202301/0102_happy_new_year/img/p_evt_nav.png) 0 0 no-repeat}
+.event_wrap .evt_nav_wrap li:nth-child(1){width:720px}
+.event_wrap .evt_nav_wrap li:nth-child(2){width:234px;background-position:-720px 0}
+.event_wrap .evt_nav_wrap li:nth-child(3){width:214px;background-position:-956px 0}
+.event_wrap .evt_nav_wrap li a{display:block;width:100%;height:100%}
+
+.event_wrap .p_evt_nav .evt_section{position:absolute !important;top:0;left:50%;-webkit-transform:translate3d(-50%,0px,0px);transform:translate3d(-50%,0px,0px);z-index:50;}
+.event_wrap .p_evt_nav.is_fixed .evt_section{position:fixed !important;top:0;left:50%;width:1920px;height:120px;background:rgba(255, 255, 255, 0.6);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);z-index:100}
+.event_wrap .p_evt_nav.is_fixed .evt_section .evt_nav_wrap{width:1168px;left:50%;-webkit-transform:translate3d(-50%,0px,0px);transform:translate3d(-50%,0px,0px)}
+.event_wrap .p_evt_nav{padding-top:120px;background:rgba(255, 255, 255, 1)}
+
+.event_wrap .p_evt_nav li.on{background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202301/0102_happy_new_year/img/p_evt_nav_on.png) 0 0 no-repeat}
+.event_wrap .p_evt_nav li:nth-child(2).on{background-position:-720px 0}
+.event_wrap .p_evt_nav li:nth-child(3).on{background-position:-956px 0}
+
+/* button */
+.event_wrap .btn{position:absolute;border:0;padding:0}
+.event_wrap .btn_lnk1{top:0;left:40px;right:40px;height:200px}
+.event_wrap .btn_lnk2{top:0;left:40px;right:40px;height:200px}
+
+/* 쿠폰리스트 */
+.event_wrap .coupon_list{position:absolute;width:100%;top:313px;left:50%;transform:translateX(-50%)}
+.event_wrap .coupon_list ul{position:relative;display:flex;justify-content:center;flex-wrap:wrap}
+.event_wrap .coupon_list li{height:100%;margin:0 20px}
+
+/* 쿠폰 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.event_wrap .coupon_item{position:relative;width:266px;margin:0 auto}
+.event_wrap .coupon_item_info{position:relative;height:160px;background:#fff;border-radius:6px;display:flex;flex-direction:column;padding:22px 10px 20px 22px;box-sizing:border-box}
+.event_wrap .coupon_item_info:before{position:absolute;top:0;right:0;width:86px;height:84px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/p_mark.png) 0 0 no-repeat;background-position:-86px 0;content:''}
+.event_wrap .coupon_item_info .info_type{color:#232323;font-size:22px;font-weight:700;line-height:18px;font-family:'PulmuoneLOHAS', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;z-index:10}
+.event_wrap .coupon_item_info .info_discount{color:#73c40b;font-weight:900;line-height:68px;z-index:10}
+.event_wrap .coupon_item_info .info_discount em{font-size:57px;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_discount small{font-size:30px;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_name{display:block;margin-top:-2px;color:#727272;font-size:17px;line-height:22px;letter-spacing:-.5px}
+
+.event_wrap .coupon_item_btn{position:relative;display:inline-block;width:266px;height:52px;left:50%;transform:translateX(-50%);margin-top:40px !important;border:1px solid #ddd !important;border-radius:4px;background:#fff !important;color:#333;font-size:20px !important;font-weight:500;letter-spacing:-1px;box-sizing:border-box}
+.event_wrap .coupon_item_btn:after{position:relative;display:inline-block;width:26px;height:16px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_down.svg) 0 0 no-repeat;margin-left:4px;content:''}
+
+.event_wrap .coupon_desc{text-align:center;margin-top:20px}
+.event_wrap .coupon_desc span{display:block;margin:0 5px;color:#fff}
+.event_wrap .coupon_desc span small{font-size:16px;vertical-align:text-bottom}
+
+/* product */
+.event_wrap .product_list{display:flex;flex-wrap:wrap;margin-left:40px;box-sizing:border-box}
+.event_wrap .product_list li{width:250px;margin-right:29px;vertical-align:top}
+.event_wrap .product_list a{display:block;width:100%;height:100%}
+.event_wrap .product_list .inner{position:relative;font-size:0}
+
+.event_wrap .product_img{display:flex;justify-content:center;align-items:center;overflow:hidden;width:100%;height:250px;background:#fff}
+.event_wrap .product_img img{height:100%;margin:0 !important}
+.event_wrap .product_info{display:block;padding:20px 0 60px;box-sizing:border-box}
+.event_wrap .product_brand{display:block;font-size:16px;font-weight:700;color:#333;line-height:24px}
+.event_wrap .product_title{overflow:hidden;display:block;font-size:20px;font-weight:400;color:#222;line-height:26px;letter-spacing:-.6px;word-break:keep-all;margin-bottom:5px}
+.event_wrap .percent{display:inline-block;margin-left:8px}
+.event_wrap .percent .num{display:inline-block;font-size:24px;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .percent .unit{display:inline-block;font-size:24px;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .original{display:block;margin:15px 0 0 0}
+.event_wrap .original del{display:inline-block;font-size:18px;color:#999;letter-spacing:-.6px;font-family:'Lato'}
+.event_wrap .sale{display:inline-block;margin-top:3px}
+.event_wrap .sale ins{display:inline-block;font-size:24px;font-weight:600;color:#222;letter-spacing:-.6px;text-decoration:none;font-family:'Lato'}
+.event_wrap .sale .won{display:inline-block;font-size:18px;font-weight:500;color:#222}
+
+/* notice */
+.event_wrap .p_evt_noti{background:#262626 url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202301/0102_happy_new_year/img/p_img_noti.jpg) center top}
+.event_wrap .evt_notice{padding:0 40px 100px;box-sizing:border-box}
+.event_wrap .notice_title{display:block;position:relative;padding:3px 10px 8px 26px;font-size:22px;font-weight:600;color:#fff;line-height:30px}
+.event_wrap .notice_title:before{position:absolute;top:50%;left:0;width:22px;height:22px;margin-top:-12px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_white.svg) 0 0 no-repeat;content:''}
+.event_wrap .notice_list li{position:relative;padding-left:16px;font-size:16px;color:#fff;line-height:30px;word-break:keep-all}
+.event_wrap .notice_list li:before{position:absolute;top:14px;left:0;width:3px;height:3px;background-color:#fff;border-radius:100%;content:''}
+
+.event_wrap .noti2{background:#7abc3e url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202301/0102_happy_new_year/img/p_img_noti2.jpg) center top}
+.event_wrap .roulette_desc{padding-bottom:70px;text-align:center;color:#999}
+
+/* template */
+.desktop .fb__event .event__roulette__wrap{height:710px;overflow:hidden}
+.desktop .fb__event .event__roulette__wrap .roulette__background{position:absolute;max-width:none;left:50%;margin:0 -960px auto} /* 배경 1920 bos등록시 사용 */
+.desktop .fb__event .roulette__wrapper{overflow:initial;top:0;width:657px;height:657px;margin:20px 0 0;transform:translate(-50%,0)}
+.desktop .fb__event .roulette__action img{width:186px;height:186px;margin:0;transform:translate(-50%,-50%)}
+.desktop .fb__event .roulette__arrow{width:57px;margin-left:-28px;top:-20px}
+.desktop .detail-wrapper__bottom{padding:0}
+
+
+/* motion */
+.motion_box{overflow:hidden}
+.motion_box img{margin:0 !important}
+.motion_box .motion1{-webkit-animation:rotate 6s 0s ease-in-out infinite both;animation:rotate 6s 0s ease-in-out infinite both}
+.motion_box .motion2{-webkit-animation:rotate-scale 6s 0s ease-in-out infinite both, fade 3s 0s infinite both;animation:rotate-scale 6s 0s ease-in-out infinite both, fade 3s 0s infinite both}
+.motion_box .motion3{-webkit-animation:fade 4s 0s ease-in-out infinite both;animation:fade 4s 0s ease-in-out infinite both}
+.motion_box .object1{position:absolute;top:-210px;left:5px;z-index:2}
+.motion_box .object2{position:absolute;top:-15px;left:365px}
+.motion_box .object3{position:absolute;top:550px;left:150px}
+
+@-webkit-keyframes rotate {
+  0%, 100% {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 30px) rotate(4deg);
+            transform: translate(0, 30px) rotate(4deg);
+  }
+}
+@keyframes rotate {
+  0%, 100% {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 30px) rotate(4deg);
+            transform: translate(0, 30px) rotate(4deg);
+  }
+}
+
+@-webkit-keyframes rotate-scale {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(-30px, 30px);
+            transform: translate(-30px, 30px);
+  }
+}
+@keyframes rotate-scale {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(-30px, 30px);
+            transform: translate(-30px, 30px);
+  }
+}
+
+@-webkit-keyframes fade {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}

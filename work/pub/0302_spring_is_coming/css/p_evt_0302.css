@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* reset */
+.desktop .fb__event .promotion__content img{max-width:none;margin:0 -376px auto}
+.desktop .fb__event .event__detail__wrapper .detail .event_wrap img{max-width:none;margin:0 -376px auto} 
+.event,.event_wrap{overflow:hidden}
+
+/* wide common */
+.event_wrap .evt_wide_wrap{position:relative;max-width:1920px;margin:0 auto;text-align:left}
+.event_wrap .evt_section,.event_wrap .evt_notice{position:relative;width:1168px;margin:0 auto}
+.event_wrap .evt_section img{max-width:none;margin:0 -376px auto;vertical-align:top}
+
+/* button */
+.event_wrap .btn{position:absolute;border:0;padding:0}
+.event_wrap .btn_lnk1{top:0;left:50%;transform:translateX(-50%);width:266px;height:52px;}
+
+/* nav */
+.event_wrap .evt_nav_wrap{overflow:hidden;position:absolute;top:0;left:40px;right:40px;height:100px;display:flex;justify-content:space-between}
+.event_wrap .evt_nav_wrap li{position:relative;width:33.3334%;height:100%}
+.event_wrap .evt_nav_wrap li a{display:block;width:100%;height:100%}
+
+.event_wrap .p_evt_nav .evt_section{position:absolute !important;top:0;left:50%;-webkit-transform:translate3d(-50%,0px,0px);transform:translate3d(-50%,0px,0px);z-index:50}
+.event_wrap .p_evt_nav.is_fixed .evt_section{position:fixed !important}
+.event_wrap .p_evt_nav{padding-top:100px}
+
+.event_wrap .p_evt_nav li.on:after{position:absolute;top:0;left:0;width:100%;height:100%;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/p_evt_nav_on.jpg) 0 0 no-repeat;content:''}
+.event_wrap .p_evt_nav li:nth-child(2).on:after{background-position:-363px 0}
+.event_wrap .p_evt_nav li:nth-child(3).on:after{background-position:-725px 0}
+
+/* 쿠폰리스트 */
+.event_wrap .coupon_list{position:absolute;top:275px;left:50%;transform:translateX(-50%);width: 100%;}
+.event_wrap .coupon_list ul{position:relative;display:flex;justify-content: center;flex-wrap:nowrap;margin:0 40px}
+.event_wrap .coupon_list li{margin-right: 25px;}
+.event_wrap .coupon_list li:last-child{margin-right: 0;}
+
+/* 쿠폰 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.event_wrap .coupon_item{position:relative;width:266px;margin:0 auto}
+.event_wrap .coupon_item_info{position:relative;height:160px;background:#fff;border-radius:6px;display:flex;flex-direction:column;padding:22px 10px 20px 22px;box-sizing:border-box}
+.event_wrap .coupon_item_info:before{position:absolute;top:0;right:0;width:86px;height:84px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/p_mark.png) 0 0 no-repeat;background-position:-86px 0;content:''}
+.event_wrap .coupon_item_info .info_type{color:#232323;font-size:22px;font-weight:700;line-height:18px;font-family:'PulmuoneLOHAS', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;z-index:10}
+.event_wrap .coupon_item_info .info_discount{color:#73c40b;font-weight:900;line-height:68px;z-index:10}
+.event_wrap .coupon_item_info .info_discount em{font-size:57px;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_discount small{font-size: 30px;font-family: 'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif;}
+.event_wrap .coupon_item_info .info_name{display:block;margin-top:-2px;color:#727272;font-size:17px;line-height:22px}
+
+.event_wrap .coupon_item.type2 .coupon_item_info{position:relative;height:160px;background:#73c40b;border-radius:6px;display:flex;flex-direction:column;padding:22px 10px 20px 22px;box-sizing:border-box}
+.event_wrap .coupon_item.type2 .coupon_item_info:before{position:absolute;top:0;right:0;width:86px;height:84px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/p_mark.png) 0 0 no-repeat; content:''}
+.event_wrap .coupon_item.type2 .coupon_item_info .info_type{color:#fff;font-size:22px;font-weight:700;line-height:18px;font-family:'PulmuoneLOHAS', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;z-index:10}
+.event_wrap .coupon_item.type2 .coupon_item_info .info_discount{color:#fff;font-weight:900;line-height:68px;z-index:10}
+.event_wrap .coupon_item.type2 .coupon_item_info .info_name{display:block;margin-top:-2px;color:#fff;font-size:17px;line-height:22px}
+
+.event_wrap .coupon_item_btn{position:relative;width:266px;height:53px;left:50%;transform:translateX(-50%);margin-top:14px !important;padding-right:40px;border:1px solid #ddd !important;border-radius:5px;background:#fff !important;color:#333;font-size:20px !important;font-weight:500;letter-spacing:-1px;box-sizing:border-box}
+.event_wrap .coupon_item_btn:before{position:absolute;top:36%;left:190px;width:26px;height:16px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_down.svg) 0 0 no-repeat;content:''}
+
+.event_wrap .coupon_desc{text-align:center;margin-top:20px}
+.event_wrap .coupon_desc span{display:block;margin:0 5px;color:#232323}
+.event_wrap .coupon_desc span small{font-size:16px; vertical-align:text-bottom}
+
+/* notice */
+.event_wrap .p_evt_noti{background:#e6dee9 url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/p_img_noti.jpg) center top}
+.event_wrap .evt_notice{padding:0 40px 100px;box-sizing:border-box}
+.event_wrap .notice_title{display:block;position:relative;padding:13px 10px 18px 46px;border-top:4px solid #333333;font-size:22px;font-weight:600;color:#333333;line-height:30px}
+.event_wrap .notice_title:before{position:absolute;top:50%;left:20px;width:22px;height:22px;margin-top:-12px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon.svg) 0 0 no-repeat;content:''}
+.event_wrap .notice_list{padding:12px 20px;border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
+.event_wrap .notice_list li{position:relative;padding-left:16px;font-size:16px;color:#333333;line-height:30px;word-break:keep-all}
+.event_wrap .notice_list li:before{position:absolute;top:14px;left:0;width:3px;height:3px;background-color:#333333;border-radius:100%;content:''}
+
+.event_wrap .p_evt_noti.noti2{background:#c6cad8 url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/p_img_noti2.jpg) center top}
+
+/* product */
+.event_wrap .product_list{display:flex;position:absolute;top:283px;left:40px;box-sizing:border-box;flex-wrap: wrap;}
+.event_wrap .product_list li{width:250px;margin-right:29px;vertical-align:top}
+.event_wrap .product_list a{display:block;width:100%;height:100%}
+.event_wrap .product_list .inner{position:relative;font-size:0}
+
+.event_wrap .product_img{display:flex;justify-content:center;align-items:center;overflow:hidden;width:100%;height:250px}
+.event_wrap .product_img img{height:100%;margin:0 !important}
+.event_wrap .product_info{display:block;min-height:163px;padding-top:20px;box-sizing:border-box}
+.event_wrap .product_brand{display:block;font-size:16px;font-weight:700;color:#333;line-height:24px}
+.event_wrap .product_title{overflow:hidden;display:block;font-size:20px;font-weight:400;color:#222;line-height:26px;letter-spacing:-1px;word-break:keep-all;margin-bottom:5px}
+.event_wrap .percent{display:inline-block;margin-left:8px}
+.event_wrap .percent .num{display:inline-block;font-size:24px;font-weight:600;color:#3f9a65;font-family:'Lato'}
+.event_wrap .percent .unit{display:inline-block;font-size:24px;font-weight:600;color:#3f9a65;font-family:'Lato'}
+.event_wrap .original{display:block;margin:15px 0 0 0}
+.event_wrap .original del{display:inline-block;font-size:18px;color:#999;letter-spacing:-.6px;font-family:'Lato'}
+.event_wrap .sale{display:inline-block;margin-top:3px}
+.event_wrap .sale ins{display:inline-block;font-size:24px;font-weight:600;color:#222;letter-spacing:-.6px;text-decoration:none;font-family:'Lato'}
+.event_wrap .sale .won{display:inline-block;font-size:18px;font-weight:500;color:#222}
+
+/* 무비 */
+.event_wrap .evt_mov{position:absolute;top:0;left:50%;transform:translateX(-50%);min-width:100%;min-height:100%;width:auto;height:100%}
+.event_wrap .evt_mov video{display:block;width:auto;height:100%;object-fit:cover}
+
+/* template */
+.desktop .fb__event .fb__event-comment__join-btn{overflow:hidden;position:relative;max-width:1920px !important;width:100%;height:50px;margin:0 auto;padding:0;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/p_btn_bg.jpg) 50% 0 no-repeat;text-align:center}
+.desktop .fb__event .fb__event-comment__join-btn:after{position:absolute;top:0;left:50%;z-index:-1;width:100%;height:100%;transform:translate(-50%,0);content:''}
+.desktop .fb__event .fb__event-comment__join-btn button{position:absolute;top:0;left:50%;transform:translateX(-50%);width:266px;height:52px;padding:0;font-size:0;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/p_img_btn.png) 0 0 no-repeat}
+.desktop .detail-wrapper__bottom{padding-top:0}
+
+/* motion */
+.motion_box{overflow:hidden}
+.motion_box img{margin:0 !important}
+.motion_box .motion1{transform-origin:bottom left;-webkit-animation:swing1 5s 0s ease-in-out infinite both;animation:swing1 5s 0s ease-in-out infinite both}
+.motion_box .motion2{transform-origin:bottom right;-webkit-animation:swing2 5s 0s ease-in-out infinite both;animation:swing2 5s 0s ease-in-out infinite both}
+.motion_box .object1{position:absolute;top:389px;left:-375px;-webkit-animation-delay:1s;animation-delay:1s;z-index:70}
+.motion_box .object2{position:absolute;top:535px;right:-376px;-webkit-animation-delay:1s;animation-delay:1s;z-index:70}
+
+@-webkit-keyframes swing1{
+  0%, 100% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes swing2{
+  0%, 100% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swing1{
+  0%, 100% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swing2{
+  0%, 100% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,194 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald:wght@700&display=swap');
+
+/* wide common */
+.evt_wide_wrap,.event_wrap{position:relative;width:100%;margin:0 auto;text-align:left}
+.event_wrap .blind{overflow:hidden;position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;line-height:0;margin:-1px}
+.event_wrap img{width:100%;vertical-align:top}
+
+.event_wrap .p_evt_sec2,.p_evt_noti{background:#f5f7f9}
+.event_wrap .p_evt_sec4{background:#f1faf5}
+
+/* nav */
+.event_wrap .evt_nav_wrap{overflow:hidden;position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:space-between;align-content:space-between;flex-wrap:wrap}
+.event_wrap .evt_nav_wrap li{position:relative;width:50%;height:50%}
+.event_wrap .evt_nav_wrap li a{display:block;position:relative;z-index:1;width:100%;height:100%}
+
+.event_wrap .p_evt_nav .evt_section{position:absolute !important;top:0;left:0;z-index:20;width:100%}
+.event_wrap .p_evt_nav.is_fixed .evt_section{position:fixed !important;top:14.4444vw;height:25vw;overflow:hidden}
+.event_wrap .p_evt_nav{padding-top:41.6667vw;z-index:20}
+
+.event_wrap .p_evt_nav.is_fixed{padding-top:25vw}
+.event_wrap .p_evt_nav.is_fixed .evt_nav_wrap{background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/mo_bar.jpg);background-size:100% auto}
+.event_wrap .p_evt_nav li.on:after{position:absolute;top:0;left:0;width:100%;height:100%;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/mo_bar_on.jpg);background-size:200% auto;content:''}
+.event_wrap .p_evt_nav li:nth-child(2).on:after{background-position:100% 0}
+.event_wrap .p_evt_nav li:nth-child(3).on:after{background-position:0 100%}
+.event_wrap .p_evt_nav li:nth-child(4).on:after{background-position:100% 100%}
+
+/* button */
+.event_wrap .btn{position:absolute;top:0;left:25%;right:25%;border:0;padding:0;}
+.event_wrap .btn_lnk1{height:26%;}
+.event_wrap .btn_lnk2{height:30%;}
+
+/* 쿠폰 */
+.event_wrap .coupon_list li{padding-bottom: 8.0555vw;}
+.event_wrap .coupon_list li:last-child{padding-bottom: 0;}
+.event_wrap .coupon_item{position:relative;width:43.61%;margin:0 auto}
+.event_wrap .coupon_item_info{position:relative;background:#73c40b;border-radius:0.83vw;display:flex;flex-direction:column;padding:3.33vw 1vw 3.33vw 3.88vw;box-sizing:border-box}
+.event_wrap .coupon_item_info:before{position:absolute;top:0;right:0;width:13.8vw;height:13.8vw;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/m_mark.png) 0 0 no-repeat;background-position:0 0;background-size:200% auto;content:''}
+.event_wrap .coupon_item_info .info_type{color:#fff;font-size:3.8vw;font-weight:700;line-height:3.5vw;font-family:'PulmuoneLOHAS', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;z-index:10}
+.event_wrap .coupon_item_info .info_discount{margin-bottom:0.9vw;margin-left:-2px;color:#fff;font-weight:900;line-height:10vw;z-index:10}
+.event_wrap .coupon_item_info .info_discount em{font-size:10vw;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_discount small{font-size:5.2vw;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_name{display:block;color:#fff;font-size:3vw;line-height:3vw}
+
+.event_wrap .coupon_item_btn{position:relative;display:inline-block;width:100%;line-height:9.28vw;left:50%;transform:translateX(-50%);border:1px solid #ddd !important;border-radius:4px;background:#fff !important;color:#333;font-size:3.88vw !important;font-weight:500;letter-spacing:-.35vw;margin-top:1.9444vw;box-sizing:border-box}
+.event_wrap .coupon_item_btn:after{position:relative;display:inline-block;width:5vw;height:3.6vw;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_down.svg) no-repeat;background-size:100%;margin-left:1.5vw;content:''}
+
+/* product */
+.event_wrap .product_list{display:flex;flex-wrap:wrap;width:calc(100vw - 5.556vw);margin:0 5.556vw 0 5.556vw}
+.event_wrap .product_list.list1{position: absolute; top: 57.5000vw;}
+.event_wrap .product_list.list1 .product_title{color:#fff;}
+.event_wrap .product_list.list1 .sale ins{color:#fff;}
+.event_wrap .product_list.list1 .sale .won{color:#fff;}
+.event_wrap .product_list li{width:43.056vw;margin-right:2.778vw;vertical-align:top}
+.event_wrap .product_list a{display:block;width:100%;height:100%}
+.event_wrap .product_list .inner{position:relative;font-size:0}
+
+.event_wrap .product_list .plus{background-color: #ff752a;display:inline-block;margin-right:4px;color:#fff;font-size:3.0556vw; text-align: center; border-radius: 4px;font-weight:400;padding: 5px 5px;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+
+.event_wrap .product_lilsum::before{position:absolute;top:30.4444vw;right:13.7222vw;
+width: 8.3333vw; height: 8.3333vw; content: ' \002B';background-color: #8fc744;border-radius: 50%;color: #fff;font-size: 8.3333vw;display:flex;justify-content:center;align-items:center;z-index: 1;}
+.event_wrap .lilsum_area{position: absolute; top: 27.2222vw; right: 1.3889vw; display: inline-block; width:14.0556vw;height:14.0556vw;background:#fff;border: 2px #8fc744 solid; border-radius: 1.6666vw;overflow:hidden;}
+.event_wrap .lilsum_area img{height:100%;margin:0 !important}
+.event_wrap .lilsum_area::after{position: absolute;top:0;right:0;bottom:0;left:0;background-color: rgba(0,0,0,.05);content: '';}
+
+.event_wrap .product_img{display:block;overflow:hidden;min-width:43.056vw;max-width:43.056vw;height:43.056vw;background:#fff;border-radius: 1.6666vw;}
+.event_wrap .product_img img{min-width:43.056vw;max-width:43.056vw;}
+.event_wrap .product_info{display:block;padding:2.7777vw 0 8.3333vw;box-sizing:border-box}
+.event_wrap .product_title{display:block;font-size:3.88889vw;font-weight:500;color:#222;line-height:5.55556vw;letter-spacing:-.3px;word-break:keep-all;margin:0 0 2vw}
+.event_wrap .percent{display:inline-block;margin-left:1.111vw}
+.event_wrap .percent .num{display:inline-block;font-size:4.44444vw;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .percent .unit{display:inline-block;font-size:4.44444vw;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .original{display:block}
+.event_wrap .original del{display:inline-block;font-size:3.33333vw;color:#999;letter-spacing:-.3px;font-family:'Lato'}
+.event_wrap .sale{display:inline-block}
+.event_wrap .sale ins{display:inline-block;font-size:4.44444vw;font-weight:600;color:#222;letter-spacing:-.3px;text-decoration:none;font-family:'Lato'}
+.event_wrap .sale .won{display:inline-block;font-size:3.33333vw;font-weight:500;color:#222}
+
+/* soldout */
+.event_wrap .product_list .dimm_soldout{display:block;position:absolute;width:100%;height:59%;border-radius:1.6666vw;background:rgba(0,0,0,.6);color:#fff;pointer-events:none;cursor:not-allowed;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;text-align:center;font-size:5.5556vw;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif;z-index:2;}
+.event_wrap .product_list .dimm_soldout strong{font-size: 7vw;margin-top: 1.3889vw;text-decoration: underline;text-underline-position : under;}
+.event_wrap .product_list .dimm_soldout + a{cursor:default;pointer-events:none}
+.event_wrap .product_list .dimm_soldout ~ .coupon_special_btn{background:#ccc;color:#aaa;border:#ccc;cursor:not-allowed;pointer-events:none}
+
+/* notice */
+.event_wrap .evt_notice{padding:0 5.555555% 60px;box-sizing:border-box}
+.event_wrap .notice_title{display:block;position:relative;padding:9px 9px 9px 22px;border-top:2px solid #333;font-size:20px;font-weight:600;color:#333;line-height:1.5}
+.event_wrap .notice_title:before{position:absolute;top:50%;left:0;width:19px;height:19px;margin-top:-9px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon.svg) 0 0 no-repeat;background-size:100% auto;content:''}
+.event_wrap .notice_list{padding:25px 0;border-top:1px solid rgba(3,51,51,.2);border-bottom:1px solid rgba(3,51,51,.2)}
+.event_wrap .notice_list li{position:relative;padding-left:6px;font-size:12px;color:#333;line-height:20px;word-break:keep-all}
+.event_wrap .notice_list li:before{position:absolute;top:10px;left:1px;width:2px;height:2px;background-color:#333;border-radius:100%;content:''}
+
+.event_wrap .noti2{background:#9545ff url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/img_noti.jpg) 100% 0/100%}
+.event_wrap .noti2 .notice_title{border-top:2px solid #fff;color:#fff;}
+.event_wrap .noti2 .notice_title:before{background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_white.svg) 0 0 no-repeat;background-size:100% auto;content:''}
+.event_wrap .noti2 .notice_list{border-top:1px solid rgba(255,255,255,.2);border-bottom:1px solid rgba(255,255,255,.2)}
+.event_wrap .noti2 .notice_list li{color:#fff;}
+.event_wrap .noti2 .notice_list li:before{background-color:#fff;}
+
+/* template */
+
+.mobile .fb .event__roulette__wrap, .tablet .fb .event__roulette__wrap{overflow:hidden;min-height:auto;padding-top:100%;background:#285bb8 url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/bg_roulette.png) 100% 0/100%}
+.mobile .fb__event .event__roulette__wrap .roulette{width:88.8888vw;height:88.8888vw}
+.mobile .fb .event__roulette__wrap .roulette__background, .tablet .fb .event__roulette__wrap .roulette__background{display:none}
+.mobile .fb__event .roulette__arrow,.tablet .fb__event .roulette__arrow{top:-3vw;width:10.1388vw;margin-left:-5.4vw}
+.mobile .fb__event .roulette__action img{width:22.2222vw;height:22.2222vw;margin:0;transform:translate(-50%,-50%)}
+.mobile .detail-wrapper__bottom, .tablet .detail-wrapper__bottom{padding:0}
+
+/* motion */
+.event_wrap .flow_box1{position:relative; width:100%;height:118.6111vw;background:#000 url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/img_flow1.webp) 0 center repeat-y; background-size: cover;animation:move 9s linear infinite}
+.event_wrap .flow_box2{position:absolute;top:0; left:0;width:100%;height:118.6111vw;background: url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202308/0801_2nd_birth/img/0801/img_flow2.webp) 0 center repeat-y;background-size: cover;animation:move 18s linear infinite}
+
+@keyframes move {
+  0% {
+    background-position: center 0;
+  }
+  100% {
+    background-position: center -265.2778vw;
+  }
+}
+
+
+.motion_box{position:absolute;width:100%;height:100%;top:0;left:0;overflow: hidden;}
+.motion_box img{width:100%;margin:0 !important;-webkit-touch-callout:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.motion_box span{position:absolute}
+.motion_box::after{position:absolute;top:0;right:0;bottom:0;left:0;background:linear-gradient(to top,#16171c 5%,transparent);content:'';z-index: 40;}
+
+.motion_box .txt{width:80vw;top:80.3333vw;left:10vw;z-index:50}
+
+.motion_box .object1{width:55vw;top:21.6944vw;left:35.6667vw;z-index:49;}
+.motion_box .object2{width:45vw;top:37.6944vw;left:7.6667vw;z-index:48;}
+.motion_box .object3{width:38vw;top:28.6944vw;left:4.6667vw;z-index:47;}
+.motion_box .object4{width:40vw;top:6.6944vw;left:15.6667vw;z-index:46;}
+.motion_box .object5{width:25vw;top:9.6944vw;left:48.6667vw;z-index:45;}
+.motion_box .object6{width:18vw;top:40.6944vw;left:75.6667vw;z-index:44;}
+.motion_box .object7{width:13vw;top:59.6944vw;left:75.6667vw;z-index:43;}
+.motion_box .object8{width:25vw;top:-0.3056vw;left:-1.3333vw;z-index:42;}
+.motion_box .object9{width:34vw;top:75.6944vw;left:76.6944vw;z-index:41;}
+
+.motion_box .motion1{animation:bounce 8s ease-in-out 0s infinite both, 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0px);
+            transform:translate(0, 0px);
+  }
+  50% {
+    -webkit-transform:translate(0, -10px);
+            transform:translate(0, -10px);
+  }
+}
+.motion_box .motion2{animation:bounce 3s ease-in-out 0s infinite both, 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+  }
+  50% {
+    -webkit-transform:translate(0, -10px);
+            transform:translate(0, -10px);
+  }
+}
+.motion_box .motion3{animation:bounce 2s ease-in-out 0s infinite both, 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+  }
+  50% {
+    -webkit-transform:translate(0, -15px);
+            transform:translate(0, -15px);
+  }
+}
+.motion_box .motion4{animation:bounce 4s ease-in-out 0s infinite both, 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+  }
+  50% {
+    -webkit-transform:translate(0, -20px);
+            transform:translate(0, -20px);
+  }
+}
+.motion_box .motion5{animation:bounce 6s ease-in-out 0s infinite both, 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+  }
+  50% {
+    -webkit-transform:translate(0, -20px);
+            transform:translate(0, -20px);
+  }
+}

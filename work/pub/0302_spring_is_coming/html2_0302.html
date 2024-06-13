@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="kr" class="android mobile portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body class="fb">
+    <style>
+      .mobile main {
+        display: block;
+      }
+      .fb__header--sub .fb__header__wrap[data-v-248786a6] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 201;
+        height: 14.44444vw;
+        padding: 0 1.66667vw 0 1.66667vw;
+        border-bottom: 1px solid #f5f5f5;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #fff;
+      }
+      .fb__header--sub .fb__header__title[data-v-248786a6] {
+        width: 50vw;
+        font-family: sans-serif;
+        font-size: 5.55556vw;
+        font-weight: 500;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+
+    <main class="fb__event">
+      <div data-v-248786a6="" class="fb__header__cover">
+        <header data-v-248786a6="" class="fb__header fb__header--sub black">
+          <div data-v-248786a6="" class="fb__header__wrap">
+            <div data-v-248786a6="" class="fb__header__front">
+              <button data-v-248786a6="" type="button" class="fb__btn__back"></button>
+            </div>
+            <h1 data-v-248786a6="" class="fb__header__title">이벤트</h1>
+            <div data-v-248786a6="" class="fb__header__back">
+              <button data-v-248786a6="" type="button" class="fb__btn__share"></button>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="event">
+        <!-- 작업영역 -->
+        <link rel="stylesheet" type="text/css" href="https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/css/m_evt_0302.css" />
+        <div class="templete_wrap" style="padding-top: 14.4444vw">
+          <!-- html2 -->
+          <div class="event_wrap">
+            <div class="evt_wide_wrap">
+              <div class="evt_section">
+                <img src="https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202303/0302_spring_is_coming/img/evt_sec4.jpg" alt="누비지오 마이크로화이버 차렵이불세트
+                이불 + 베개커버 set (색상랜덤) - 산뜻한 봄날의 색감, 가볍고 부드러운 촉감의 마이크로화이버 소재 차렵이불세트" />
+              </div>
+            </div>
+            <div class="evt_wide_wrap p_evt_noti noti2">
+              <div class="evt_notice">
+                <strong class="notice_title">꼭 확인하세요</strong>
+                <ul class="notice_list">
+                  <li>상기 이미지는 이해를 돕기 위한 컨셉 이미지로, 발송 상품은
+                  사정에 따라 변경될 수 있습니다.</li>
+                  <li>3월 2일~3월 16일 기간 동안 1회 주문 금액이 7만원 이상
+                  (쿠폰, 배송비 제외 결제금액)일 시 참여 가능합니다.</li>
+                  <li>해당 이벤트는 ID당 1회 응모 가능합니다.</li>
+                  <li>이벤트 응모 후 주문 취소(부분취소 포함)로 1회 결제 금액이
+                  7만원 미만일 시 추첨 대상에서 제외됩니다.</li>
+                  <li>당첨자는 3월 23일 #풀무원 공지사항을 통해 확인할 수 있습니다.</li>
+                  <li>경품은 [마이페이지]에 기재된 기본배송지로 발송되며,
+                  기본배송지 불분명으로 인한 반송 또는 오발송 시 재발송되지
+                  않습니다.</li>
+                  <li>해당 이벤트는 회원 대상 이벤트로 비회원, 임직원은
+                  참여 불가합니다.</li>
+                  <li>해당 이벤트는 당사 사정에 의해 조기 종료 및 변경될 수 있습니다.</li>
+                </ul>
+              </div>
+            </div>
+            <div id="dummy"></div>
+            <script>
+              $(function () {
+                var $nav = $(".p_evt_nav");
+                var $navItems = $(".event_wrap .evt_nav_wrap a");
+
+                $(window).on("scroll load", function() {
+                  var scrollTop = $(window).scrollTop() + 1;
+                  var navTop = $nav.offset().top - $(".fb__header__wrap").outerHeight();
+                  var bottom = $("#dummy").offset().top - $(".p_evt_nav").outerHeight();
+
+                  if ( scrollTop >= navTop && scrollTop <= bottom ) {
+                    $nav.addClass("is_fixed");
+                  } else {
+                    $nav.removeClass("is_fixed");
+                    $(".evt_nav_wrap li").removeClass("on");
+                  }
+
+                  $navItems.each(function () {
+                    var $content = $($(this).attr("href"));
+                    var contentOffsetTop = $content.offset().top - $(".p_evt_nav").outerHeight() - $(".fb__header__wrap").outerHeight();
+
+                    if (scrollTop >= contentOffsetTop) {
+                      $(this).parent().addClass("on").siblings().removeClass("on");
+                    }
+                  });
+                });
+
+                $navItems.on("click", function (e) {
+                  e.preventDefault();
+                  var $content = $($(this).attr("href"));
+                  var contentOffsetTop = $content.offset().top - $(".p_evt_nav").outerHeight() - $(".fb__header__wrap").outerHeight() + 1;
+                  $("html, body").animate({ scrollTop: contentOffsetTop + "px" }, 500);
+                });
+
+                var $btnMore = $(".event_wrap .btn_move");
+                $btnMore.on("click", function (e) {
+                  e.preventDefault();
+                  var $content = $($(this).attr("href"));
+                  var contentOffsetTop = $content.offset().top - $(".fb__header__wrap").outerHeight() + 1;
+                  $("html, body").animate({ scrollTop: contentOffsetTop + "px" }, 500);
+                });
+              });
+            </script>
+          </div>
+          <!-- //html2 -->
+        </div>
+        <!-- //작업영역 -->
+      </div>
+    </main>
+  </body>
+</html>

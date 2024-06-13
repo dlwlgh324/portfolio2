@@ -1,0 +1,278 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald:wght@700&display=swap');
+
+/* wide common */
+.evt_wide_wrap,.event_wrap{position:relative;width:100%;margin:0 auto;text-align:left}
+.event_wrap .blind{overflow:hidden;position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;line-height:0;margin:-1px}
+.event_wrap img{width:100%;vertical-align:top}
+
+.event_wrap .p_evt_sec4{background:#f4f4f4}
+
+/* nav */
+.event_wrap .evt_nav_wrap{overflow:hidden;position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:space-between;align-content:space-between;flex-wrap:wrap}
+.event_wrap .evt_nav_wrap li{position:relative;width:50%;height:50%}
+.event_wrap .evt_nav_wrap li a{display:block;position:relative;z-index:1;width:100%;height:100%}
+
+.event_wrap .p_evt_nav .evt_section{position:absolute !important;top:0;left:0;z-index:50;width:100%}
+.event_wrap .p_evt_nav.is_fixed .evt_section{position:fixed !important;top:14.4444vw}
+.event_wrap .p_evt_nav{padding-top:33.3333vw;z-index:50}
+
+.event_wrap .p_evt_nav li.on:after{position:absolute;top:0;left:0;width:100%;height:100%;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202305/0502_39anniversary/img/0502/evt_nav_on.jpg);background-size:200% auto;content:''}
+.event_wrap .p_evt_nav li:nth-child(2).on:after{background-position:100% 0}
+.event_wrap .p_evt_nav li:nth-child(3).on:after{background-position:0 100%}
+.event_wrap .p_evt_nav li:nth-child(4).on:after{background-position:100% 100%}
+
+/* button */
+.event_wrap .btn{position:absolute;border:0;padding:0}
+.event_wrap .btn_lnk1{top:0;left:15%;right:15%;height:67.5%}
+.event_wrap .btn_lnk2{top:0;left:5%;right:5%;height:49%}
+.event_wrap .btn_lnk3{top:0;left:0;right:0;height:100%}
+
+/* 쿠폰리스트 */
+.event_wrap .coupon_list{position:absolute;width:100%;top:45.2778vw;left:0}
+.event_wrap .coupon_list ul{position:relative;display:flex;align-content:space-between;justify-content:center;flex-wrap:wrap}
+.event_wrap .coupon_list li{width:43.61%;height:100%;margin:0 1vw 7.7777vw 1vw}
+
+/* 쿠폰 */
+.event_wrap .coupon_item{position:relative;width:100%}
+.event_wrap .coupon_item_info{position:relative;background:#fff;border-radius:0.83vw;display:flex;flex-direction:column;padding:3.33vw 1vw 3.33vw 3.88vw;box-sizing:border-box}
+.event_wrap .coupon_item_info:before{position:absolute;top:0;right:0;width:13.8vw;height:13.8vw;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/m_mark.png) 0 0 no-repeat;background-position:101% 0;background-size:200% auto;content:''}
+.event_wrap .coupon_item_info .info_type{color:#232323;font-size:3.8vw;font-weight:700;line-height:3.5vw;font-family:'PulmuoneLOHAS', 'NotoSans','맑은 고딕', 'malgun gothic','Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;z-index:10}
+.event_wrap .coupon_item_info .info_discount{margin-bottom:0.9vw;margin-left:-2px;color:#73c40b;font-weight:900;line-height:10vw;z-index:10}
+.event_wrap .coupon_item_info .info_discount em{font-size:10vw;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_discount small{font-size:5.2vw;font-family:'Lato', 'NotoSans', "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Microsoft NeoGothic", "Droid sans", sans-serif}
+.event_wrap .coupon_item_info .info_name{display:block;color:#727272;font-size:3vw;line-height:3vw;letter-spacing:-.15vw}
+
+.event_wrap .coupon_item_btn{position:relative;display:inline-block;width:43.6111vw;line-height:9.28vw;left:50%;transform:translateX(-50%);border:1px solid #ddd !important;border-radius:4px;background:#fff !important;color:#333;font-size:3.88vw !important;font-weight:500;letter-spacing:-.35vw;margin-top:1.9444vw;box-sizing:border-box}
+.event_wrap .coupon_item_btn:after{position:relative;display:inline-block;width:5vw;height:3.6vw;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_down.svg) no-repeat;background-size:100%;margin-left:1.5vw;content:''}
+
+.event_wrap .coupon_desc{text-align:center;margin-top:2.5vw;color:#fff}
+.event_wrap .coupon_desc span{display:block;font-size:3vw;margin-top:1vw;letter-spacing:-.1vw}
+.event_wrap .coupon_desc span small{display:inline-block;vertical-align:text-bottom}
+
+/* product */
+.event_wrap .product_list{display:flex;flex-wrap:wrap;width:calc(100vw - 5.556vw);margin:-15vw 5.556vw 0 5.556vw}
+.event_wrap .product_list li{width:43.056vw;margin-right:2.778vw;vertical-align:top}
+.event_wrap .product_list a{display:block;width:100%;height:100%}
+.event_wrap .product_list .inner{position:relative;font-size:0}
+
+.event_wrap .product_img{display:block;overflow:hidden;min-width:43.056vw;max-width:43.056vw;height:47.222vw;background:#fff}
+.event_wrap .product_img img{min-width:47.222vw;max-width:47.222vw;margin-left:-2.2vw !important}
+.event_wrap .product_info{display:block;padding:2.7777vw 0 8.3333vw;box-sizing:border-box}
+.event_wrap .product_title{display:block;font-size:3.88889vw;font-weight:500;color:#222;line-height:5.55556vw;letter-spacing:-.3px;word-break:keep-all;margin:0 0 2vw}
+.event_wrap .percent{display:inline-block;margin-left:1.111vw}
+.event_wrap .percent .num{display:inline-block;font-size:4.44444vw;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .percent .unit{display:inline-block;font-size:4.44444vw;font-weight:600;color:#ff7828;font-family:'Lato'}
+.event_wrap .original{display:block}
+.event_wrap .original del{display:inline-block;font-size:3.33333vw;color:#999;letter-spacing:-.3px;font-family:'Lato'}
+.event_wrap .sale{display:inline-block}
+.event_wrap .sale ins{display:inline-block;font-size:4.44444vw;font-weight:600;color:#222;letter-spacing:-.3px;text-decoration:none;font-family:'Lato'}
+.event_wrap .sale .won{display:inline-block;font-size:3.33333vw;font-weight:500;color:#222}
+
+/* product - 깜짝특가 */
+.event_wrap .special_list{position:absolute;top:0;left:0;display:flex;flex-wrap:wrap;justify-content:center;box-sizing:border-box;padding-bottom:6vw}
+.event_wrap .special_list li{position:relative;width:69.4444vw;vertical-align:top}
+.event_wrap .special_list li:nth-child(2){margin-top:10vw}
+.event_wrap .special_list a{position:relative;display:block;width:100%;height:100%}
+.event_wrap .special_list .inner{position:relative}
+
+.event_wrap .special_img{overflow:hidden;display:flex;justify-content:center;align-items:center;overflow:hidden;width:100%;height:69.4444vw;border-radius:6px;background:#fff}
+.event_wrap .special_img img{width:100%;height:100%}
+.event_wrap .btn_view{position:absolute;top:85%;left:50%;transform:translateX(-50%);font-size:3.3333vw;font-weight:300;color:#fff;padding:1.9444vw 3.3333vw;background:rgba(0,0,0,0.45);border-radius:100px}
+.event_wrap .special_info{display:block;padding:5vw 0 0;box-sizing:border-box}
+.event_wrap .special_title{display:block;font-size:4.1666vw;font-weight:500;color:#133210;line-height:5.5555vw;letter-spacing:-0.3vw;word-break:keep-all;text-align:center;border-top:2px solid #fff;border-bottom:1px dotted #999;padding:2vw 0}
+
+.event_wrap .special_cost{display:flex;flex-wrap:wrap;justify-content:space-between;padding:1vw 4.1667vw;font-weight:500;color:#fff;border-bottom:2px solid #fff}
+.event_wrap .special_cost dt{width:55%;padding:0.8vw 0 0;font-size:3.0556vw;letter-spacing:-0.1vw;box-sizing:border-box}
+.event_wrap .special_cost dd{width:auto;padding:0.5vw 0;font-size:4.1667vw;box-sizing:border-box;display:flex;align-items:center}
+.event_wrap .special_cost dd .cost{font-family:'Lato'}
+.event_wrap .special_cost dd .won{font-size:3.0556vw}
+.event_wrap .special_cost dd ins{text-decoration:none}
+.event_wrap .special_cost .original{font-size:2.7778vw;color:#999}
+.event_wrap .special_cost .original .cost{font-size:3.3333vw}
+.event_wrap .special_cost .original .won{font-size:2.7778vw}
+
+.event_wrap .special_totalcost{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-top:2vw;font-size:5vw;font-weight:600;color:#00371a;letter-spacing:-.2vw}
+.event_wrap .special_totalcost dd{display:flex;align-items:center}
+.event_wrap .special_totalcost dd .cost{font-family:'Lato';font-size:6.3889vw}
+.event_wrap .special_totalcost dd .num{margin-left:8px;font-family:'Lato';font-size:6.3889vw;color:#f74d63}
+.event_wrap .special_totalcost dd .unit{font-family:'Lato';font-size:6.3889vw;color:#f74d63}
+
+.event_wrap .coupon_special_btn{position:relative;width:100%;height:11.1111vw;padding-right:6vw;margin-top:4.8611vw;border:2px solid #ddd;border-radius:4px;background:#fff;color:#333;font-size:3.8889vw;font-weight:500;letter-spacing:-.3vw;box-sizing:border-box}
+.event_wrap .coupon_special_btn:before{position:absolute;top:33%;left:62.5%;width:7.5%;height:40%;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_down.svg) no-repeat;background-size:100%;content:''}
+
+/* soldout */
+.event_wrap .special_list .dimm_soldout{display:block;position:absolute;width:100%;height:51.6%;border-radius:1.6666vw;background:rgba(0,0,0,.6);color:#fff;pointer-events:none;cursor:not-allowed;z-index:1;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;text-align:center;font-size:7vw;font-family:'Lato'}
+.event_wrap .special_list .dimm_soldout + a{cursor:default;pointer-events:none}
+.event_wrap .special_list .dimm_soldout ~ .coupon_special_btn{background:#ccc;color:#aaa;border:#ccc;cursor:not-allowed;pointer-events:none}
+
+/* notice */
+.event_wrap .p_evt_noti{background:#03df6b}
+.event_wrap .evt_notice{padding:0 5.555555% 60px;box-sizing:border-box}
+.event_wrap .notice_title{display:block;position:relative;padding:9px 9px 9px 22px;border-top:2px solid #fff;font-size:20px;font-weight:600;color:#fff;line-height:1.5}
+.event_wrap .notice_title:before{position:absolute;top:50%;left:0;width:19px;height:19px;margin-top:-9px;background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon_white.svg) 0 0 no-repeat;background-size:100% auto;content:''}
+.event_wrap .notice_list{padding:25px 0;border-top:1px solid rgba(255,255,255,.2);border-bottom:1px solid rgba(255,255,255,.2)}
+.event_wrap .notice_list li{position:relative;padding-left:6px;font-size:12px;color:#fff;line-height:20px;word-break:keep-all}
+.event_wrap .notice_list li:before{position:absolute;top:10px;left:1px;width:2px;height:2px;background-color:#fff;border-radius:100%;content:''}
+
+.event_wrap .noti2{background:#f98091}
+.event_wrap .noti3{background:#9545ff}
+.event_wrap .noti1 .notice_title{border-top:2px solid #333;color:#333}
+.event_wrap .noti1 .notice_title:before{background:url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/common/img/icon.svg) 0 0 no-repeat;background-size:100% auto}
+.event_wrap .noti1 .notice_list{border-top:1px solid rgba(3,51,51,.2) !important;border-bottom:1px solid rgba(3,51,51,.2) !important}
+.event_wrap .noti1 .notice_list li{color:#333 !important}
+.event_wrap .noti1 .notice_list li:before{background-color:#333 !important}
+
+/* template */
+.mobile .fb .event__roulette__wrap, .tablet .fb .event__roulette__wrap{overflow:hidden;min-height:auto;padding-top:100%;background:#9545ff url(https://shoppulmuone.cdn.ntruss.com/MALL/planshop/202305/0502_39anniversary/img/0502/bg_roulette.png) 100% 0/100%}
+.mobile .fb__event .event__roulette__wrap .roulette{width:91.388vw;height:91.388vw}
+.mobile .fb .event__roulette__wrap .roulette__background, .tablet .fb .event__roulette__wrap .roulette__background{display:none}
+.mobile .fb__event .roulette__arrow,.tablet .fb__event .roulette__arrow{top:-2.5vw;width:7.916vw;margin-left:-3.8vw}
+.mobile .fb__event .roulette__action img{width:28.333vw;height:28.333vw;margin:0;transform:translate(-50%,-50%)}
+.mobile .detail-wrapper__bottom,
+.tablet .detail-wrapper__bottom{padding:0}
+
+/* motion */
+.motion_box{overflow:hidden;position:absolute;width:100%;height:100%;top:0;left:0}
+.motion_box img{width:100%;margin:0 !important;-webkit-touch-callout:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.motion_box span{position:absolute}
+
+.motion_box .txt_count{width:50vw;top:36vw;left:25vw;font-family:'Oswald',sans-serif;font-size:31.6666vw;font-weight:700;color:#01b749;text-align:center;transform:rotate(0.04deg) translate3d(0, 0, 0);z-index:10}
+.motion_box .txt_bar1{top:69vw;left:42vw;width:0.5555vw;height:3vw;background:#7d2b8b;border-radius:0 0 10px 0}
+.motion_box .txt_bar2{top:69vw;left:58vw;width:0.5555vw;height:3vw;background:#7d2b8b;border-radius:0 0 0 16px}
+.motion_box .txt_candle1{width:9vw;top:34vw;left:38vw}
+.motion_box .txt_candle2{width:9vw;top:34vw;left:54vw}
+.motion_box .txt{width:100%;top:17vw;left:0;z-index:12}
+.motion_box .txt_cake{width:100%;bottom:0;left:0;z-index:10}
+
+.motion_box .item1{width:100%;top:88vw;left:0;z-index:20}
+.motion_box .item2{width:100%;top:88vw;left:0;z-index:21;animation-delay:4s !important}
+
+.motion_box .object1{width:16vw;top:0vw;left:16vw;z-index:1;animation-delay:1s !important}
+.motion_box .object2{width:16vw;top:-7vw;left:68vw;animation-delay:4s !important}
+.motion_box .object3{width:13vw;top:19vw;left:-6vw}
+.motion_box .object4{width:14vw;top:0vw;left:95vw;animation-delay:0.4s !important}
+.motion_box .object5{width:13vw;top:16vw;left:80vw;animation-delay:2s !important}
+.motion_box .object6{width:15vw;top:-5vw;left:8vw;animation-duration:20s !important;animation-delay:2s !important}
+
+.motion_box .object10{width:6vw;top:120vw;left:3vw}
+.motion_box .object11{width:4vw;top:65vw;left:1vw;animation-delay:2.2s !important}
+.motion_box .object12{width:7vw;top:110vw;right:-2vw}
+.motion_box .object13{width:4vw;top:55vw;left:92vw;animation-delay:1.4s !important}
+.motion_box .object14{width:4vw;top:95vw;left:-1vw;animation-delay:2.4s !important}
+.motion_box .object15{width:4vw;top:25vw;left:75vw;animation-delay:2s !important}
+.motion_box .object16{width:3.5vw;top:85vw;left:95vw;animation-delay:1s !important}
+
+.motion_box.box2{position:relative;height:56.9444vw;background:#80c342;z-index:0}
+.motion_box .txt2{z-index:1}
+.motion_box .balloon1{width:22vw;top:-10vw;left:-4vw;animation-duration:15s !important;animation-delay:2s !important}
+.motion_box .balloon2{width:26vw;top:10vw;left:6vw;animation-delay:4s !important}
+.motion_box .balloon3{width:26vw;top:35vw;left:-3vw}
+.motion_box .balloon4{width:22vw;top:-10vw;left:62vw;animation-duration:20s !important;animation-delay:3s !important}
+.motion_box .balloon5{width:24vw;top:4vw;left:82vw;animation-delay:1s !important}
+.motion_box .balloon6{width:24vw;top:22vw;left:70vw;animation-delay:2s !important}
+.motion_box .balloon7{width:22vw;top:40vw;left:86vw;animation-delay:7s !important}
+
+.motion_box .motion1{animation:fade 1s ease-in-out 1.2s both}
+@keyframes fade {
+  0% {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.motion_box .motion5{animation:fade 0.5s ease-in-out 1.4s both, skew 1s 0s infinite both}
+.motion_box .motion6{animation:fade 1s ease-in-out 1.8s both, skew 1.5s 2s infinite both}
+@keyframes skew {
+  0%, 100% {
+    -webkit-transform: skew(2deg, 15deg);
+            transform: skew(2deg, 15deg);
+  }
+  50% {
+    -webkit-transform: skew(-5deg, 0deg);
+            transform: skew(-5deg, 0deg);
+  }
+}
+
+.motion_box .motion2{animation:bounce-up 8s ease-in-out 0s infinite both}
+@keyframes bounce-up {
+  0%, 50%, 100% { opacity:0 }
+  6% {
+    -webkit-transform:translate(0, -10px);
+            transform:translate(0, -10px);
+    opacity: 1;
+  }
+  12%, 49% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+  }
+  7% {
+      opacity: 1;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+  }
+}
+
+.motion_box .motion3{animation:wobble 2s ease-in-out 0s infinite both, rise 15s linear 0s infinite both}
+@keyframes wobble {
+  0%, 100% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  50% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+@keyframes rise {
+  0% {
+    top: calc(100% + 100px);
+  }
+  100% {
+    top: -500px;
+  }
+}
+
+.motion_box .motion4{animation:bounce 4s ease-in-out 0s infinite both, fade 1s 0s both}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform:translate(0, 0);
+            transform:translate(0, 0);
+  }
+  50% {
+    -webkit-transform:translate(0, -15px);
+            transform:translate(0, -15px);
+  }
+}
+
+.motion_box .motion7{animation:wobble2 2s ease-in-out 0s infinite both, rise2 12s linear 0s infinite both}
+@keyframes wobble2 {
+  0%, 100% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  50% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+@keyframes rise2 {
+  0% {
+    top: calc(100% + 5vw);
+  }
+  100% {
+    top: -60vw;
+  }
+}
